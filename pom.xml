@@ -121,11 +121,18 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<!-- Spring Security -->
+		<!-- Spring Security-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>de.mkammerer</groupId>
+			<artifactId>argon2-jvm</artifactId>
+			<version>2.5</version>
+		</dependency>
+
 
 	</dependencies>
 
